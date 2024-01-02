@@ -1,0 +1,33 @@
+.search {
+    flex: 1;
+}
+
+.input {
+    width: 300px;
+    margin: 10px 150px;
+    color: white;
+
+    & > * {
+        text-align: center !important;
+        color: #ffffff;
+        background-color: white;
+        padding: 14px;
+        font-size: 18px !important;
+    }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.103);
+    backdrop-filter: blur(5px);
+    flex: 1;
+    margin: 10px 0;
+    max-height: calc(100vh - 195px);
+    overflow: auto;
+    padding: 15px;
+    border: 2px solid #3896ff;
+    border-radius: 20px;
+}
